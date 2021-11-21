@@ -1,0 +1,65 @@
+@keyframes circle {
+  0% {
+    transform:rotate(0deg)
+              translate(-25vmin)
+              rotate(0deg);
+
+  }
+  100% {
+    transform:rotate(360deg)
+              translate(-25vmin)
+              rotate(-360deg);
+  }
+}
+
+.js_types_system_container {
+    width: 80vmin;
+    height: 65vmin;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(78,154,163);
+    background: radial-gradient(circle, rgba(78,154,163,1) 0%, rgba(27,39,96,1) 48%, rgba(144,43,43,0) 60%);
+}
+
+.js_types_sun {
+    width: 12vmin;
+    height: 12vmin;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    background-color: DarkOrchid;
+}
+
+.js_types_container {
+    position: relative;
+    top: 22%;
+    left: 44%;
+    transform: translateY(-52%);
+    transform:translateX(-52%);
+    list-style-type: none;
+    background-color: DarkOrchid;
+}
+
+.js_type {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0.75rem;
+    color: LightCyan;
+    text-shadow: 3px 3px 5px SkyBlue;
+    animation: circle 18s linear infinite;
+}
+
+.js_type:hover > div {
+    display: block;
+}
+
+.js_type_details {
+    display: none;
+    font-size: 0.66rem;
+    text-align: center;
+}
