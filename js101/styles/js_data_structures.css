@@ -1,0 +1,52 @@
+@keyframes dscard {
+    0% {
+        transform: matrix3d(0.94,-0.06,-0.34,0.0005,0.06,0.98,0.17,0,0.34,-0.17,0.9211999999999999,0,0,0,0,1);
+        -webkit-transform: matrix3d(0.94,-0.06,-0.34,0.0005,0.06,0.98,0.17,0,0.34,-0.17,0.9211999999999999,0,0,0,0,1);
+    }
+    100% {
+         transform: scale(1.25);
+    }
+}
+
+.js_data_structures_container {
+    width: 80vmin;
+    height: 65vmin;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    font-size: 0.9rem;
+    text-align: left;
+    text-shadow: 3px 3px 5px SkyBlue;
+}
+
+.js_data_structure_card {
+    width: 54vmin;
+    height: calc(54vmin * 0.68);
+    position: absolute;
+    top: 12vmin;
+    padding: 1vmin;
+    transform: matrix3d(0.94,-0.06,-0.34,0.0005,0.06,0.98,0.17,0,0.34,-0.17,0.9211999999999999,0,0,0,0,1);
+    -webkit-transform: matrix3d(0.94,-0.06,-0.34,0.0005,0.06,0.98,0.17,0,0.34,-0.17,0.9211999999999999,0,0,0,0,1);
+    font-size: 0.5rem;
+    background-color: rgba(149, 90, 215, 0.75);
+    border: 0.1rem solid #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem #fff,
+                0 0 0.5rem #fff,
+                0 0 0.5rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}
+
+.js_data_structure_card:hover {
+    top: 6vmin;
+}
+
+.js_data_structure_card:active {
+    left:50%;
+    z-index: 1;
+    transform: scale(1.25);
+    animation: dscard 0.2s ease;
+}

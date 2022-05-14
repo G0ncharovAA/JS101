@@ -1,0 +1,29 @@
+@import "js_types.css";
+@import "js_data_structures.css";
+@import "js_algorithms.css";
+
+html {
+  font-family: Courier New;
+  font-size: 4vmin;
+  color: AliceBlue;
+  background-color: #000000ff;
+  background-image: url(../images/electro.webp);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: HoneyDew;
+  text-shadow: 3px 3px 5px SkyBlue;
+}
+
+h2 {
+  font-size: 0.75rem;
+}
+
+footer {
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+}
