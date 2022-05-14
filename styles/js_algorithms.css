@@ -1,42 +1,42 @@
 .js_algorithms_container {
-    width: 86vmin;
-    height: 72vmin;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: LightSkyBlue;
-    text-align: start;
-    overflow: auto;
-    padding: 0.5rem;
-    border: 0.1rem solid #fff;
-    border-radius: 0.5rem;
-    background-color: rgba(18, 22, 129, 0.8);
-    box-shadow: 0 0 0.5rem #fff;
+  width: 86vmin;
+  height: 72vmin;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: LightSkyBlue;
+  text-align: start;
+  overflow: auto;
+  padding: 0.5rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  background-color: rgba(18, 22, 129, 0.8);
+  box-shadow: 0 0 0.5rem #fff;
 }
 
 .algorithms_tabs {
-    text-align: center;
-    padding: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
 }
 
-.algorithms_tabs>input[type="radio"] {
+.algorithms_tabs > input[type="radio"] {
     display: none;
 }
 
-.algorithms_tabs>input[type="radio"]:checked+label {
+.algorithms_tabs > input[type="radio"]:checked + label {
     font-weight: bold;
     text-shadow: 1px 1px 12px rgba(149, 90, 215, 0.75);
 }
 
-#graphs_tab_button:checked~#graphs_tab,
-#sort_tab_button:checked~#sorting_tab,
-#string_tab_button:checked~#strings_tab,
-#other_tab_button:checked~#other_tab {
-    display: block;
+#graphs_tab_button:checked ~ #graphs_tab,
+#sort_tab_button:checked ~ #sorting_tab,
+#string_tab_button:checked ~ #strings_tab,
+#other_tab_button:checked ~ #other_tab {
+  display: block;
 }
 
 .js_algorithms_article {
-    text-align: justify;
-    display: none;
-    font-size: 0.5rem;
-    padding: 0.5rem;
+  text-align: justify;
+  display: none;
+  font-size: 0.5rem;
+  padding: 0.5rem;
 }

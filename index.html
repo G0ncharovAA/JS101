@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>JS 101</title>
+    <link rel="icon" type="image/webp" href="ic_logo/logo192.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#051368" />
+    <meta name="description" content="JavaScript 101" />
+    <link rel="apple-touch-icon" href="ic_logo/ic_logo.svg" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
 <h1 align="center">JavaScript 101</h1>
 <div class="js_types_system_container">
     <img class="js_types_sun" src="images/js_logo.svg" alt="JavaScript logo"/>
@@ -241,5 +248,14 @@
 <footer>
     Закодила Sasha Inverse; Благодаря вдохновению от dcVersus
 </footer>
+ <script>
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service_worker.js')
+                    .then((reg) => console.log('Success: ', reg.scope))
+                    .catch((err) => console.log('Failure: ', err));
+            })
+        }
+    </script>
 </body>
 </html>

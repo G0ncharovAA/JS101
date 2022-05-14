@@ -1,0 +1,47 @@
+{
+  "name": "JavaScript 101",
+  "short_name": "JS 101",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#051368",
+  "background_color": "#001566",
+  "orientation": "portrait",
+  "icons": [
+     {
+      "src": "ic_logo/ic_logo.svg",
+      "type": "image/svg",
+      "sizes": "any",
+      "purpose": "maskable"
+    },
+    {
+      "src": "ic_logo/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "ic_logo/logo192.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ic_logo/logo144.webp",
+      "type": "image/webp",
+      "sizes": "144x144"
+    },
+    {
+      "src": "ic_logo/logo96.webp",
+      "type": "image/webp",
+      "sizes": "96x96"
+    },
+    {
+      "src": "ic_logo/logo72.webp",
+      "type": "image/webp",
+      "sizes": "72x72"
+    },
+    {
+      "src": "ic_logo/logo48.webp",
+      "type": "image/webp",
+      "sizes": "48x48"
+    }
+  ]
+}
