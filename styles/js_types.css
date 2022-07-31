@@ -25,11 +25,10 @@
   width: 12vmin;
   height: 12vmin;
   position: relative;
-  top: 40%;
+  top: 27vmin;
   left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
-  background-color: DarkOrchid;
 }
 
 .js_types_container {
@@ -39,7 +38,6 @@
   transform: translateY(-52%);
   transform: translateX(-52%);
   list-style-type: none;
-  background-color: DarkOrchid;
 }
 
 .js_type {
